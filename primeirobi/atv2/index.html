@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+<title>PÁGINA DE CADASTRO</title>
+</head>
+
+<body>
+<h1>Página de Cadastro</h1>
+
+<form action="#">
+
+<fieldset>
+
+<legend>Crie sua Conta</legend>
+
+<label for="campo_nome">Nome:</label><br>
+<input type="text" id="campo_nome" name="nome" required><br> <br>
+
+<label for="user_email">E-mail:</label><br>
+<input type="email" id="user_email" name="email"  placeholder="seuemail@exemplo" required><br> <br>
+
+<label for="campo_password">Senha (Mínimo 8 caracteres):</label><br>
+<input type="password" id="campo_password" name="senha" minlength="8" required><br> <br>
+
+<b>Gênero:</b><br> 
+<input type="radio" name="genero" value="feminino"> Feminino <br> 
+<input type="radio" name="genero" value="masculino"> Masculino <br> 
+<input type="radio" name="genero" value="outro"> Outro <br> <br>
+
+<b>Biografia:</b><br>
+<textarea name="biografia" rows="5" placeholder="Conte um pouco sobre você...">
+</textarea><br><br>
+
+<input type="checkbox" required> Eu li e aceito os termos de serviço<br><br>
+<button type="submit"> Cadastrar</button>
+<button type="reset">Limpar</button>
+
+</fieldset>
+</form>
+</body>
+</html>
